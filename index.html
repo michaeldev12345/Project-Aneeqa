@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>🎂 Happy Birthday Aneeqa ❤️</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="icon" type="image/png" href="images/photo1.jpg">
+
+</head>
+
+<body>
+
+    <!-- Loading Screen -->
+
+    <div id="hearts"></div>
+
+<div id="loader">
+
+    <div class="loader-content">
+
+        
+
+        <h1>🎂</h1>
+
+        <h2>Happy Birthday</h2>
+
+        <p>Loading Your Surprise...</p>
+
+        <div class="loading-bar">
+
+            <div class="loading-fill"></div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<button id="musicToggle">
+    🔊 Music On
+</button>
+
+
+    <!-- ========================= -->
+    <!-- Welcome Page -->
+    <!-- ========================= -->
+
+    <div class="welcome-card" id="welcomeCard">
+
+        <h1>🎉 Happy Birthday!</h1>
+
+        <h2>Aneeqa ❤️</h2>
+
+        <p>
+            I made something special just for you.
+        </p>
+
+        <button id="openBtn">
+            🎁 Open My Surprise
+        </button>
+
+    </div>
+
+
+    <!-- ========================= -->
+    <!-- Message Page -->
+    <!-- ========================= -->
+
+    <section class="message-page" id="messagePage">
+
+        <h1>💌 A Message For You</h1>
+
+        <p class="birthday-message">
+
+            Happy Birthday, Aneeqa! ❤️🎂
+            <br><br>
+
+            Today is your special day, and I just wanted to remind you how wonderful you are.
+            I hope this birthday brings you endless happiness, beautiful memories, and all the success you dream of.
+
+            <br><br>
+
+            You deserve every smile, every blessing, and every moment of joy because you have such a kind and beautiful heart.
+
+            <br><br>
+
+            May this new year of your life be filled with good health, laughter, exciting adventures, and countless reasons to smile.
+
+            <br><br>
+
+            Always stay happy, keep believing in yourself, and never stop chasing your dreams.
+
+            <br><br>
+
+            Happy Birthday once again, Aneeqa! ❤️🎉
+
+        </p>
+
+        <button id="messageNextBtn">
+            Continue 🎈
+        </button>
+
+    </section>
+
+
+    <!-- ========================= -->
+    <!-- Balloon Page -->
+    <!-- ========================= -->
+
+    <section class="balloon-page" id="balloonPage">
+
+        <h1>🎈 Pop the Balloons 🎈</h1>
+
+        <p>
+            Pop all 4 balloons to unlock your next surprise.
+        </p>
+
+        <div class="balloons">
+
+    <div class="balloon">
+    <span class="emoji">🎈</span>
+<img src="images/photo1.jpg" class="hidden-photo" draggable="false">
+
+</div>
+
+<div class="balloon">
+    <span class="emoji">🎈</span>
+    <img src="images/photo2.jpg" class="hidden-photo" draggable="false">
+</div>
+
+<div class="balloon">
+    <span class="emoji">🎈</span>
+    <img src="images/photo3.jpg" class="hidden-photo" draggable="false">
+</div>
+
+<div class="balloon">
+    <span class="emoji">🎈</span>
+    <img src="images/photo4.jpg" class="hidden-photo" draggable="false">
+</div>
+
+</div>
+
+        <p id="balloonStatus"></p>
+
+        <button id="nextBtn">
+            🎁 Open Your Gift
+        </button>
+
+    </section>
+
+    <!-- Photo Popup -->
+
+<div id="photoPopup" class="photo-popup">
+
+    <div class="photo-card">
+
+        <img id="popupImage" src="">
+
+    </div>
+
+</div>
+
+
+    <!-- ========================= -->
+    <!-- Gift Page -->
+    <!-- ========================= -->
+
+    <section class="gift-page" id="giftPage">
+
+        <h1>🎁 A Special Gift For You</h1>
+
+        <p>
+            Congratulations! You popped all the balloons.
+            <br><br>
+            Tap the gift box to open your next surprise.
+        </p>
+
+        <div class="gift-box" id="giftBox">
+            🎁
+        </div>
+
+        <p id="giftMessage"></p>
+
+    </section>
+
+
+    <!-- ========================= -->
+    <!-- Gallery Page (Coming Soon) -->
+    <!-- ========================= -->
+
+    <section class="gallery-page" id="galleryPage">
+
+        <h1>📸 Beautiful Memories</h1>
+
+        <p>
+            Every picture tells a story ❤️
+        </p>
+
+<div class="gallery">
+
+    <div class="photo">
+<img src="images/photo1.jpg" alt="Aneeqa" draggable="false">
+    </div>
+
+    <div class="photo">
+        <img src="images/photo2.jpg" alt="Aneeqa" draggable="false">
+    </div>
+
+    <div class="photo">
+        <img src="images/photo3.jpg" alt="Aneeqa" draggable="false">
+    </div>
+
+    <div class="photo">
+        <img src="images/photo4.jpg" alt="Aneeqa" draggable="false">
+    </div>
+
+</div>
+
+        <button id="galleryNextBtn">
+            Continue 💌
+        </button>
+
+    </section>
+
+
+    <!-- ========================= -->
+<!-- Letter Page -->
+<!-- ========================= -->
+
+<section class="letter-page" id="letterPage">
+
+    <h1>💌 A Letter For You</h1>
+
+    <p>
+        Before we continue...
+        <br><br>
+        I wrote something from my heart.
+    </p>
+
+    <div class="envelope" id="envelope">
+        💌
+    </div>
+
+    <div class="letter-paper" id="letterPaper">
+
+        <h2>💌 Meri Pyari Choti Behen, Aneeqa ❤️</h2>
+
+        <p>
+
+            Happy Birthday! 🎉🎂
+
+            <br><br>
+
+            Kabhi kabhi zindagi humein aise logon se mila deti hai jinse milne ka humne kabhi socha bhi nahi hota.
+            2024 mein Instagram par tumse ek choti si baat shuru hui thi, aur us waqt bilkul bhi andaza nahi tha ke ek din tum meri choti behen ban jaogi.
+
+            <br><br>
+
+            Har rishta khoon ka nahi hota, kuch rishte Allah khud banata hai.
+            Tum bhi meri zindagi ka aisa hi ek khoobsurat rishta ho,
+            aur main Allah ka shukar ada karta hoon ke usne mujhe tum jaisi pyari behen di.
+
+            <br><br>
+
+            Aaj tumhare birthday par meri dil se yehi dua hai ke Allah tumhe hamesha khush rakhe,
+            sehatmand rakhe, tumhari har jaiz dua qubool kare,
+            aur tumhari zindagi ko sukoon, barkat aur kamyabi se bhar de.
+            Ameen. 🤲
+
+            <br><br>
+
+            Hamesha muskurati rehna,
+            apne sapnon ke liye mehnat karna,
+            aur kabhi apne Rab par bharosa mat khona.
+
+            <br><br>
+
+            In Sha Allah tumhari zindagi ka har naya saal
+            pichle saal se bhi zyada khoobsurat,
+            khushiyon se bhara aur yaadgaar hoga.
+
+            <br><br>
+
+            Aur ek baat... ❤️
+
+            <br><br>
+
+            Chahe zindagi humein kitna hi busy kyun na kar de,
+            ya waqt kitna hi badal kyun na jaye,
+            tum hamesha meri choti behen rahogi.
+
+            <br><br>
+
+            Allah kare hamara ye pyara sa rishta
+            hamesha isi tarah salamat rahe.
+
+            <br><br>
+
+            Happy Birthday once again,
+            meri pyari choti behen! ❤️🎉
+
+            <br><br>
+
+            May Allah always protect you,
+            guide you,
+            and fill your life with endless happiness.
+
+            <br><br>
+
+            <b>— Tumhara Bada Bhai 💙</b>
+
+        </p>
+
+    </div>
+
+    <button id="letterNextBtn" style="display:none;">
+        Continue 🎂
+    </button>
+
+</section>
+<!-- ========================= -->
+<!-- Cake Page -->
+<!-- ========================= -->
+
+<section class="cake-page" id="cakePage">
+
+    <h1>🎂 Make A Wish</h1>
+
+    <p>
+        Every birthday starts with a wish...
+        <br><br>
+        Blow out the candles and make yours. ✨
+    </p>
+
+    <div class="cake">
+
+        <div class="candles" id="candles">
+            🕯️ 🕯️ 🕯️
+        </div>
+
+        <div class="cake-emoji">
+            🎂
+        </div>
+
+    </div>
+
+    <button id="blowBtn">
+        💨 Blow the Candles
+    </button>
+
+</section>
+<!-- ========================= -->
+<!-- Final Page -->
+<!-- ========================= -->
+
+<section class="final-page" id="finalPage">
+
+    <h1>🎉 Happy Birthday Again! 🎉</h1>
+
+    <h2>Aneeqa ❤️</h2>
+
+    <p class="final-message">
+        Thank you for being such an amazing sister.
+        <br><br>
+        I hope this little surprise made you smile.
+        <br><br>
+        May Allah bless you with happiness, success, good health,
+        and countless beautiful memories.
+        <br><br>
+        Stay happy, keep smiling, and always believe in yourself.
+        ❤️
+    </p>
+
+    <button id="replayBtn">
+        🔄 Replay Journey
+    </button>
+
+</section>
+
+<audio id="bgMusic" loop>
+    <source src="music/birthday.mp3" type="audio/mpeg">
+</audio>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+
+
+</body>
+
+</html>
