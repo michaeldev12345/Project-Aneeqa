@@ -1106,3 +1106,52 @@ html{
     }
 
 }
+
+/* ===========================
+   Mobile Responsive
+=========================== */
+
+@media (max-width: 768px){
+
+    body{
+        overflow-x:hidden;
+    }
+
+    h1{
+        font-size:32px;
+    }
+
+    h2{
+        font-size:24px;
+    }
+
+    p{
+        font-size:16px;
+        line-height:1.7;
+    }
+
+    .welcome-card,
+    .message-page,
+    .gift-page,
+    .letter-page,
+    .cake-page,
+    .gallery-page,
+    .final-page{
+        width:100%;
+        padding:100px 20px 40px;
+        box-sizing:border-box;
+    }
+
+    button{
+        width:90%;
+        max-width:320px;
+        font-size:17px;
+        padding:14px 20px;
+    }
+
+    img{
+        max-width:100%;
+        height:auto;
+    }
+
+}
