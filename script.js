@@ -80,6 +80,24 @@ messagePage.style.display = "flex";
 
 });
 
+musicToggle.addEventListener("click", () => {
+
+    if (bgMusic.paused) {
+
+        bgMusic.play();
+
+        musicToggle.innerHTML = "🔊 Music On";
+
+    } else {
+
+        bgMusic.pause();
+
+        musicToggle.innerHTML = "🔇 Music Off";
+
+    }
+
+});
+
 
 // =======================================
 // Message → Balloon
@@ -208,10 +226,6 @@ cakePage.style.display = "flex";
 
 });
 
-
-// =======================================
-// Cake → Final
-// =======================================
 
 // =======================================
 // Cake → Final
