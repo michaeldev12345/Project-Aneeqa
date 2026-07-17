@@ -145,7 +145,7 @@ button:hover{
 
     inset:0;
 
-    justify-content:center;
+    justify-content:flex-start;
 
     align-items:center;
 
@@ -153,7 +153,9 @@ button:hover{
 
     text-align:center;
 
-    padding:40px;
+    padding:120px 20px 40px;
+
+    overflow-y:auto;
 
     animation:fadeIn .8s ease;
 
@@ -1068,3 +1070,15 @@ html{
 
 }
 
+@media (max-width: 768px){
+
+    #musicToggle{
+        top:12px;
+        right:12px;
+        padding:10px 16px;
+        font-size:14px;
+        width:auto;
+        max-width:220px;
+    }
+
+}
