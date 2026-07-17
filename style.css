@@ -1187,3 +1187,47 @@ html{
     }
 
 }
+
+@supports (padding: max(0px)) {
+
+    body{
+
+        padding-top: env(safe-area-inset-top);
+
+        padding-bottom: env(safe-area-inset-bottom);
+
+    }
+
+}
+html{
+
+    scroll-behavior:smooth;
+
+    overflow-x:hidden;
+
+}
+
+body{
+
+    overflow-x:hidden;
+
+}
+@media (max-width:768px){
+
+    img{
+
+        max-width:100%;
+
+        height:auto;
+
+    }
+
+    button{
+
+        max-width:320px;
+
+        width:90%;
+
+    }
+
+}
